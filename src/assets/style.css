@@ -1,0 +1,161 @@
+:root {
+    --green: rgb(7, 223, 169);
+    --pink: rgb(209, 59, 172);
+    --purple: rgb(156, 156, 226);
+    --dark-blue: rgb(12, 3, 56);
+}
+body{
+    background-color: rgb(12, 3, 46);
+}
+a{
+    color: var(--purple);
+    
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.header{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--dark-blue);
+    color: var(--pink);
+    text-shadow: 5 5 5px black;
+}
+.header h1{
+    display: inline-block;
+    font-size: 48px;
+}
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;   
+}
+
+.header ul {
+    list-style-type: none;
+}
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.hero{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("cyberpunkAesthetic.jpg" );
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me{
+    color: var(--pink);
+    margin: 2%;
+    font-size: 180%;
+}
+.about-me h2{
+    color: var(--pink);
+    font-size: 60px;
+    text-align: center;
+    display: block;
+}
+.about-me h3{
+    color: var(--green);
+    font-size: 90%;
+}
+.about-me p, .about-me ul{
+    background-color: var(--purple);
+    color: var(--dark-blue);
+    font-size: 80%;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.work-header{
+    color: var(--pink);
+    font-size: 60px;
+    text-align: center;
+    display: block;
+}
+.work h2{
+    color: var(--pink);
+    font-size: 200%;
+    text-align: center;
+    display: block;
+}
+.snippet{
+    border: 2px solid var(--purple);
+    font-size: 150%;
+    flex: 0 0 45%;
+    margin: 2%
+}
+.snippet:hover{
+    opacity: 90%;
+}
+.snippet h2{
+    color: var(--purple);
+    font-size: 200%;
+    text-align: center;
+}
+.snippet p{
+    color: var(--green);
+}
+.screenshot img{
+    margin: 3%;
+    border-radius: 10px;
+    width: 90%
+}
+
+.snippet1:hover{
+    opacity: 70%;
+}
+.snippet1{
+    border: 2px solid var(--purple);
+    font-size: 150%;
+}
+.snippet1 h2{
+    color: var(--purple);
+    font-size: 200%;
+    text-align: center;
+}
+.snippet1 p{
+    color: var(--green);
+}
+.screenshot1 img{
+    margin: 3%;
+    border-radius: 10px;
+    width:90%;
+}
+
+.contact{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--pink);
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul:hover{
+    color: var(--green);
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    .work {
+      flex-direction: column;
+    }
+  }
