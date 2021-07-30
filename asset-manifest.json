@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.d22cd25c.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.546d2e54.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.546d2e54.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.f7016edb.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.f7016edb.js.map",
+    "static/js/2.bc3d5af9.chunk.js": "/myPortfolio/static/js/2.bc3d5af9.chunk.js",
+    "static/js/2.bc3d5af9.chunk.js.map": "/myPortfolio/static/js/2.bc3d5af9.chunk.js.map",
+    "static/js/3.f0c3e2c7.chunk.js": "/myPortfolio/static/js/3.f0c3e2c7.chunk.js",
+    "static/js/3.f0c3e2c7.chunk.js.map": "/myPortfolio/static/js/3.f0c3e2c7.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/main.d22cd25c.chunk.css.map": "/myPortfolio/static/css/main.d22cd25c.chunk.css.map",
+    "static/js/2.bc3d5af9.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.bc3d5af9.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/myPortfolio/static/media/cyberpunkAesthetic.88a7fa56.jpg",
+    "static/media/daySchedulerCapture.1317941a.png": "/myPortfolio/static/media/daySchedulerCapture.1317941a.png",
+    "static/media/fitness-tracker.3318efcd.PNG": "/myPortfolio/static/media/fitness-tracker.3318efcd.PNG",
+    "static/media/passwordGeneratorCapture.070ec5b5.PNG": "/myPortfolio/static/media/passwordGeneratorCapture.070ec5b5.PNG",
+    "static/media/perfect-night-in.a8b8aca9.PNG": "/myPortfolio/static/media/perfect-night-in.a8b8aca9.PNG",
+    "static/media/syntax-trainer.1ab7f788.PNG": "/myPortfolio/static/media/syntax-trainer.1ab7f788.PNG",
+    "static/media/wiki-hive.6b183f63.PNG": "/myPortfolio/static/media/wiki-hive.6b183f63.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7016edb.js",
+    "static/js/2.bc3d5af9.chunk.js",
+    "static/css/main.d22cd25c.chunk.css",
+    "static/js/main.546d2e54.chunk.js"
+  ]
+}
